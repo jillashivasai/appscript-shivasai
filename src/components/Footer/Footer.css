@@ -1,0 +1,47 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.subscribe{
+    background-color: transparent;
+    color: white;
+    border: 1px solid whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15px;
+}
+hr{
+    color: white;
+    display: block;
+    flex-direction: column;
+}
+.color{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.margin-right{
+    
+}
+@media screen and (max-width:576px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media  screen and (min-width:577px) and (max-width:1010px) {
+    .margin-right{
+        margin-right: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    
+}

@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h2{
+    margin-left: 15%;
+}
+.logo{
+    height: 20px;
+    background-color: transparent;
+}
+select{
+    border: none;
+    margin-left: 10px;
+    align-self: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+select:focus{
+    outline: none;
+}
+.icons{
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.width{
+    display: flex;
+    justify-content: space-between;
+}
+.tabs{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.tab-items{
+    font-weight: bold;
+    margin-right: 20px;
+}
+@media screen and (max-width:450px){
+    .none{
+        display: none;
+    }
+}

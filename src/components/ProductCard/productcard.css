@@ -1,0 +1,27 @@
+.card{
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.image{
+    width: 150px;
+    height: 150px;
+}
+li{
+    list-style-type: none; ;
+}
+h4{
+    position: relative;
+    top: -30px;
+}
+h3{
+    position: relative;
+}
